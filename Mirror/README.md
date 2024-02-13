@@ -5,3 +5,10 @@ There are two primary functions that this code performs:
 - Deform the mirror: A total of 23 piezoletric actuators create off-neutral-axis in-plane strains which yield local bending moments and curvature on the mirror.
 
 Many auxiliary functions provide low-level actuations and debugging capabilities
+
+
+main.c
+- Parsing function to read and acknoledge incoming messages
+- main function initializing the electronics and containing a round-robin loop to check for incoming messages and actuate electrodes
+
+  
